@@ -1,0 +1,142 @@
+*{
+  margin: 0px;
+  padding: 0px ;
+  font-family: "Avenir Next LT Pro"
+}
+
+h1 {
+font-weight: 500 ;
+margin-left: 148px
+}
+nav{
+  position:fixed;
+  /* top: 0px; */
+  /* left: 0px; */
+  width: 100%
+
+}
+.nav-bar ul li{
+  padding: 15px 0px
+}
+.nav-bar ul{
+background-color: #f9006a;
+white-space: nowrap;
+text-align: center;
+}
+.nav-bar ul .anchor-li {
+  position: relative;
+  right: 400px
+  /* margin-right: 105px; */
+}
+
+
+.nav-bar ul .anchor-li{
+width: 50% ;
+list-style: none;
+display: inline-block;
+/* padding: 15px 2% */
+font-weight: bold;
+}
+
+.nav-bar ul .rest {
+width: 10%;
+display: inline-block;
+position: relative;
+left: 100px
+
+}
+
+
+.nav-bar ul li a{
+  text-decoration: none;
+  font-size: 17px;
+  color:#fff
+}
+
+.nav-bar ul li .apply {
+  background-color: #fff;
+  color:#f9006a;
+  padding: 7px 30px;
+  -webkit-box-shadow: 4px 3px 18px -5px rgba(133,133,133,1);
+  -moz-box-shadow: 4px 3px 18px -5px rgba(133,133,133,1);
+  box-shadow: 4px 3px 18px -5px rgba(133,133,133,1);
+  border: 0px;
+  border-radius: 15px;
+  font-weight: 500
+
+}
+
+.nav-bar ul li .apply:hover {
+position: relative;
+top: -1px
+}
+
+
+
+section .content{
+  background-color: rgb(235, 235, 235) ;
+  max-width: 100%;
+  width:1200px;
+  margin: 0 auto;
+  padding: 30px 100px;
+  box-sizing: border-box;
+  text-align: justify;
+
+
+}
+section .content p{
+  line-height: 1.3em
+ }
+
+h3{
+font-weight: 400;
+margin-top: 30px;
+font-size: 30px;
+text-align: center;
+margin-bottom: 20px
+
+}
+textarea{
+  display: block;
+outline: none;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 10px
+
+}
+
+textarea:focus{
+  outline: none ;
+  border:1px solid DodgerBlue;
+  box-shadow: 0 0 10px #accef2;
+}
+
+button{
+  display: block;
+  margin: 20px auto;
+  border: 0px;
+  background-color: #f9006a;
+  padding:10px 20px;
+  font-size: 18px;
+  color: White;
+  font-weight: 500;
+  box-shadow: 0 0 10px #f2acbc;
+
+
+
+
+}
+
+button:hover{
+  position: relative;
+  top: -1px;
+  cursor: pointer;
+}
+
+footer{
+margin-top: 70px;
+  background-color: #f9006a;
+  padding: 15px ;
+  color: #fff;
+  text-align: center;
+}
